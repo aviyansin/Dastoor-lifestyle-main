@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import {Link, useNavigate } from "react-router-dom";
 import imageData, { category } from "../../Utils/imageData";
 import "./GallaryHome.css";
 import { IoIosArrowDropright } from "react-icons/io";
@@ -49,11 +49,11 @@ const GallaryHome = () => {
                 </div>
               </div>
               <div className="view-button">
-                <a href="ourproject">
+                <Link to="/ourproject">
                   <button type="button" className="btn btn-secondary">
                     View More
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
