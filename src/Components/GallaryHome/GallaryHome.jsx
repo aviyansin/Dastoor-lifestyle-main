@@ -49,10 +49,8 @@ const GallaryHome = () => {
                 </div>
               </div>
               <div className="view-button">
-                <Link to="/ourproject">
-                  <button type="button" className="btn btn-secondary">
+                <Link to="/ourproject" className="btn btn-secondary">
                     View More
-                  </button>
                 </Link>
               </div>
             </div>
