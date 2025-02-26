@@ -4,7 +4,7 @@ import '../Common/style.css'
 
 
 // Import images directly
-import Designs from '../Assets/designs.jpg';
+import Designs from '../Assets/Designs.jpg';
 import comfort from '../Assets/comfort.jpg';
 import SustainableImage from '../Assets/sustaianbleImage.png';
 
